@@ -1,10 +1,11 @@
 FROM python:3.7
-MAINTAINER Josip Janzic <josip@jjanzic.com>
+MAINTAINER Jonathan Foster <jonathan@jonathanfoster.io>
 
 RUN apt-get update \
     && apt-get install -y \
         build-essential \
         cmake \
+        ffmpeg \
         git \
         wget \
         unzip \
