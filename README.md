@@ -1,19 +1,21 @@
 # Python, OpenCV, and FFmpeg
 
-[![Docker Automated buil](https://img.shields.io/docker/automated/jonathanfoster/python-opencv-ffmpeg.svg)]()
+[![Docker Build Status](https://img.shields.io/docker/build/jonathanfoster/python-opencv-ffmpeg)](https://hub.docker.com/r/jonathanfoster/python-opencv-ffmpeg)
 
 Docker image with Python, OpenCV, and FFmpeg.
 
 ## Usage
 
-    docker run -it jonathafoster/python-opencv-ffmpeg python
+    docker run -it jonathanfoster/python-opencv-ffmpeg python
     >>> import cv2
+    >>> print(cv2.__version__)
 
-## Supported tags
+## Supported tags and respective Dockerfile links
 
 Images tagged with `:contrib` contain docker images built with [contrib modules](https://github.com/opencv/opencv_contrib/).
 
 - `latest`
+- `opencv-4.4.0`
 - `opencv-4.1.0`
 - `contrib-opencv-4.1.0`
 - `opencv-4.0.1`
